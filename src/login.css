@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+
+*{
+    font-family: "caveat";
+    box-sizing: border-box;
+}
+
+
+/*LOGIN LOGIN*/
+.container {
+    background-color: yellow;
+    width: 90%;
+    margin: 70px 70px;
+    height: min-height;
+    padding-left: 380px;
+    padding-right: 380px;
+    text-align: center;
+}
+.login{
+    background-color: aliceblue;
+    width: 280px;
+    height: 360px;
+    margin-top: -30px;
+    padding: 15px;
+}
+.photo_logo{
+    width: 280px;
+    height: auto;
+    position: relative;
+    border-radius: 20px;
+    margin-top: 0px;
+}
+form {
+    display: inline-block;
+    text-align: left;
+    border-radius: 20px;
+    height: auto;
+}
+label {
+    display: block;
+    margin-top: 20px;
+    
+}
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: large;
+    border-radius: 3px;
+    border-style: groove;
+    background-color:#BDE3FF;
+}
+input[type="submit"] {
+    background-color:#0D99FF;
+    color: white;
+    font-size: large;
+    padding: 8px;
+    padding-left: 100px;
+    padding-right: 110px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    box-shadow: 0px 5px 10px #005e7e;
+}
+.forgot{
+    text-align: left;
+    font-size: medium;
+}
+.sup{
+    text-align: right;
+    font-size: medium;
+    margin-left: 110px;
+    color: #0D99FF;
+}
+
+/*Autenticacion con redes*/
+.login .social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.login .social-links a {
+    display: inline-block;
+    padding: 2px;
+    margin: -5px 5px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.login .social-links a.google {
+    background-color: #db4437; /* Color rojo característico de Google */
+}
+
+.login .social-links a.facebook {
+    background-color: #4267B2; /* Color azul característico de Facebook */
+}
